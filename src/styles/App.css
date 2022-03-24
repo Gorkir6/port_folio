@@ -94,8 +94,9 @@
   height: 400px;
   font-size: 48px;
   font-weight: bold;
+}
+.hero_content p{
   margin: unset;
-  word-break: break-all;
 }
 .hero h2, .info h2, .card h3{
   font-size: 60px;
@@ -239,6 +240,10 @@ input[type=submit]:hover{
   }
   .hero_img{
     order: 2;
+  }
+  .hero_content{
+    height: fit-content;
+
   }
   .socials{
     font-size: 2rem;
