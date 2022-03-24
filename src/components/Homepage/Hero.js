@@ -8,7 +8,7 @@ function Hero(){
             </div>
             <div className="hero_content">
             <h2>Hello!</h2>
-            <p>I'm Gorki, a <br/>system engineer student from the UNA.</p>
+            <p>I'm Gorki, a <br/>system engineer student from Costa Rica.</p>
             </div>
         </section>
     )
