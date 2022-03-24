@@ -5,6 +5,7 @@ import Info from "./Info";
 import {AiFillHtml5} from 'react-icons/ai'
 import {SiJavascript} from 'react-icons/si'
 import {DiCss3,DiReact,DiPhp} from 'react-icons/di'
+import {FaNode} from 'react-icons/fa'
 
 const knowledge_arr = [
     {
@@ -32,6 +33,12 @@ const knowledge_arr = [
         'icon': <DiPhp/>,
         'level': 'Intermediate'
     },
+    {
+        'title': 'Node.js',
+        'icon': <FaNode/>,
+        'level': 'Basic'
+    }
+
 ]
 
 function About(){

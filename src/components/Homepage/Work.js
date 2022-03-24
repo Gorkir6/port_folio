@@ -3,11 +3,12 @@ import Card from './Card'
 import curb from '../../assests/images/curb.png'
 import gaultier from '../../assests/images/dr.png'
 
-const cards = [{
+const cards = [
+  {
     'image': curb,
     'link' :'https://www.curbsidecuts.ca/',
     'name':'Curbside Cuts',
-    'resume': 'Curbside Cuts is a custom theme Wordpress website ',
+    'resume': 'Curbside Cuts is a custom theme Wordpress website, made in december 2021 ',
     'key': '13'
   },
   {
@@ -15,15 +16,8 @@ const cards = [{
     'image' : gaultier,
     'link': 'https://www.drgaultier.com/',
     'name':'Dr.Gaultier',
-    'resume': 'Dr.Gaultier',
+    'resume': 'Dr.Gaultier is another custom theme Wordpress website, made in February 2022',
     'key': '23'
-  },
-  {
-    'image': curb,
-    'link' :'https://www.google.com/',
-    'name':'Ivan',
-    'resume': 'Yo soy ivan ',
-    'key': '33'
   }
   ]
 

@@ -27,7 +27,7 @@ function Card(params){
     const { height, width } = useWindowDimensions();
     return(
         <div className='card'>
-         <h2>{params.name}</h2>
+         <h3>{params.name}</h3>
          <p>{params.resume}</p>
          <a href={params.link} className="card_link"><img src={params.source} alt="xd" width={width}></img></a>
         </div>
