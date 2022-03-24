@@ -1,5 +1,5 @@
 import React from "react";
-import me from '../../assests/images/me.jpg'
+import me from '../../assests/images/me.webp'
 
 function Logo(){
     return(

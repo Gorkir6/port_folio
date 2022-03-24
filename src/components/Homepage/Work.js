@@ -1,7 +1,7 @@
 import React from "react";
 import Card from './Card'
-import curb from '../../assests/images/curb.png'
-import gaultier from '../../assests/images/dr.png'
+import curb from '../../assests/images/curb.webp'
+import gaultier from '../../assests/images/dr.webp'
 
 const cards = [
   {
