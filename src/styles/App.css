@@ -238,14 +238,16 @@ input[type=submit]:hover{
   .hero{
     height: fit-content;
     margin-top: 11vh;
+    row-gap: 30px;
   }
   .hero_img{
     order: 2;
   }
   .hero_content{
     height: fit-content;
-
+    font-size: 30px;
   }
+  
   .socials{
     font-size: 2rem;
   }
