@@ -134,6 +134,7 @@ footer{
   font-size: 20px;
   font-weight: bold;
 }
+
 .card{
   text-align: center;
 }
@@ -249,6 +250,12 @@ input[type=submit]:hover{
     font-size: 2rem;
   }
   
+}
+@media screen and (max-width: 700px){
+  .info{
+    width: 80%;
+    text-align: unset;
+  }
 }
 @media screen and (max-width: 400px){
   h1{
