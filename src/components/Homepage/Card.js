@@ -29,7 +29,7 @@ function Card(params){
         <div className='card'>
          <h3>{params.name}</h3>
          <p>{params.resume}</p>
-         <a href={params.link} className="card_link"><img src={params.source} alt="xd" width={width}></img></a>
+         <a href={params.link} className="card_link"><img src={params.source} alt="xd" width={width} height={width*0.5}></img></a>
         </div>
     );
 }
