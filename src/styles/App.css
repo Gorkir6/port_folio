@@ -204,6 +204,7 @@ footer{
   font-size: 2rem;
 }
 .know_container{
+  padding-top: 11vh;
   display: grid;
   width: 60%;
   grid-template-columns: 1fr 1fr 1fr;
