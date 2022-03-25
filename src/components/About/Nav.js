@@ -11,7 +11,7 @@ function Nav(){
                <li><a href="#info__"><BsArrowUpCircleFill/></a></li>
                <li><a href="#knowledge__"><AiFillBook/></a></li>
                <li><a><BsBriefcaseFill/></a></li>
-               <li><a><BsFillEnvelopeFill/></a></li>
+               <li><a href="#form"><BsFillEnvelopeFill/></a></li>
            </ul>
         </nav>
     )

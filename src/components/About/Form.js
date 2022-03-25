@@ -15,7 +15,7 @@ function Form(){
         e.target.reset()
     };
     return(
-        <form ref={form} onSubmit={sendEmail}>
+        <form id="form" ref={form} onSubmit={sendEmail}>
         <input type="text" name="user_name" placeholder="Enter your name" />
         <input type="email" name="user_email" placeholder="Enter your email"/>
         <textarea name="message" placeholder="Enter your message"/>
