@@ -266,11 +266,10 @@ input[type=submit]:hover{
 
 @media screen and (max-width: 1191px){
   .know_container{
-    order: 2;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
   }
-  form{
-    order: 3;
-  }
+  
 }
 @media  screen and (max-width: 760px ) {
   .hero{
