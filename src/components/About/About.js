@@ -48,11 +48,16 @@ function About(){
         <Nav></Nav>
         
         <Info ></Info>
-        <article id="knowledge__"className="know_container">
-       {
-           knowledge_arr.map(tec => <Knowledge tec={tec.title} level ={tec.level} icon={tec.icon} />)
-       }
+        
+        <article id="knowledge__">
+            <h3 className="knowledge_title">Knowledge</h3>
+            <div className="know_container">
+            {
+                 knowledge_arr.map(tec => <Knowledge tec={tec.title} level ={tec.level} icon={tec.icon} />)
+            }
+            </div>
        </article>
+
         <Form></Form>
         </section>
     )

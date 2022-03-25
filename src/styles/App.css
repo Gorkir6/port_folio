@@ -103,7 +103,7 @@
   color: rgb(174, 20, 194);
   margin: unset;
 }
-.card h3{
+.card h3, .knowledge_title{
   margin-top: 40px;
   font-size: 2rem;
   color: rgb(174, 20, 194);
@@ -203,8 +203,15 @@ footer{
 .know_icon{
   font-size: 2rem;
 }
-.know_container{
+#knowledge__{
   padding-top: 11vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.know_container{
+  
   display: grid;
   width: 60%;
   grid-template-columns: 1fr 1fr 1fr;

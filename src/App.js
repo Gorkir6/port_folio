@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Homepage from './components/Homepage/Home'
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
-import {Route} from 'wouter';
+import {Route,Switch} from 'wouter';
 
 
 function App() {
@@ -12,14 +12,17 @@ function App() {
       <header className='header'>
     <Header ></Header>
     </header>
+    <Switch>
     <Route 
       path='/about'
       component={About}
     />
     <Route 
-      path='/'
+      path={"/"}
       component={Homepage}
     />
+    
+    </Switch>
     <Footer></Footer>
     </div>
   );

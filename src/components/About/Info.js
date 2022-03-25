@@ -7,15 +7,19 @@ function Info(){
 
     return(
         <article className="info" >
-            <h2>I'm Gorki,<br/> a frontend developer 😊</h2>
-            <p>I'm currently studying system engineering in the UNA(Universidad Nacional de Costa Rica) </p>
-            <p>I've been learning about web development since August of 2021</p>
+            <h2>About me😊</h2>
+            <p>Currently studying Systems Engineering at the National University of Costa Rica, since 2019.<br></br>
+            Studying independently web development since August of 2021.</p>
+            <h3>Some of my soft skills include: </h3>
             <ul className="info_list">
-                <li><span><BsDot style={style}/></span>I like to learn about new tecnologies</li>
-                <li><span><BsDot style={style}/></span>Teamwork</li>
+                <li><span><BsDot style={style}/></span>Adaptability</li>
+                <li><span><BsDot style={style}/></span>Fast learner</li>
+                <li><span><BsDot style={style}/></span>Critical thinking</li>
+                <li><span><BsDot style={style}/></span>Logical thinking and problem solving</li>
+                <li><span><BsDot style={style}/></span>Accepting feedback</li>
+                <li><span><BsDot style={style}/></span>Collaboration and teamwork</li>
+                <li><span><BsDot style={style}/></span>Work well under pressure</li>
                 <li><span><BsDot style={style}/></span>Attention to detail</li>
-                <li><span><BsDot style={style}/></span>Good adaptability</li>
-                
             </ul>
         </article>
     )
