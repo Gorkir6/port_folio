@@ -6,7 +6,7 @@ const style = { color: "rgb(208, 71, 226)", fontSize: "1.5rem" }
 function Info(){
 
     return(
-        <article className="info">
+        <article className="info" >
             <h2>I'm Gorki,<br/> a frontend developer 😊</h2>
             <p>I'm currently studying system engineering in the UNA(Universidad Nacional de Costa Rica) </p>
             <p>I've been learning about web development since August of 2021</p>

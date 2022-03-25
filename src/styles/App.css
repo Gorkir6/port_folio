@@ -85,10 +85,7 @@
   padding: 60px;
   box-shadow: 0 8px 6px -6px rgb(208, 71, 226);
 }
-.hero img{
-  width: 300px;
-  border-radius: 5px;
-}
+
 .hero_content{
   width: 300px;
   height: 400px;
@@ -98,13 +95,18 @@
 .hero_content p{
   margin: unset;
 }
-.hero h2, .info h2, .card h3{
+.hero h2, .info h2, .work_h2{
   font-size: 60px;
   font-weight: bolder;
   color: rgb(174, 20, 194);
   margin: unset;
 }
-
+.card h3{
+  margin-top: 40px;
+  font-size: 2rem;
+  color: rgb(174, 20, 194);
+  font-weight: bold;
+}
 footer{
   display: flex;
   align-items: center;
@@ -123,12 +125,44 @@ footer{
 }
 /* Forms */
 .about_us{
-  margin-top: 15vh;
+  padding-top: 15vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 15px;
+  row-gap: 100px;
+  
+}
+.about_us_menu{
+  position: fixed;
+  display: flex;
+  font-size: 40px;
+  bottom: 5%;
+  z-index: 1000;
+  background-color: rgba(204, 0, 255, 0.479);
+  width: 250px;
+  height: fit-content;
+  border-radius: 25px;
+}
+.about_us_menu ul{
+  width: 100%;
+  padding: 30px;
+  margin: unset;
+  padding: unset;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about_us_menu li{
+  list-style: none;
+  padding-top: 5px;
+}
+.about_us_menu li:hover{
+  cursor: pointer;
+}
+.about_us_menu li a{
+  color: white;
 }
 .info p, .card p{
   font-size: 20px;
@@ -169,8 +203,9 @@ footer{
 }
 .know_container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  width: 60%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
 }
 form{
   display: flex;

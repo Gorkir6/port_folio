@@ -23,7 +23,9 @@ const cards = [
 
   function Work(){
       return(
+        
     <section  id="work" className="flex">
+        <h2 className="work_h2">My projects</h2>
       {cards.map(card => <Card key={card.key} link={card.link}
        source={card.image} name = {card.name} resume={card.resume}></Card> )}
        </section>

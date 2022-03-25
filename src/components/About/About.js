@@ -2,6 +2,7 @@ import React from "react";
 import Form from "./Form";
 import Knowledge from "./Knowledge";
 import Info from "./Info";
+import Nav from "./Nav";
 import {AiFillHtml5} from 'react-icons/ai'
 import {SiJavascript} from 'react-icons/si'
 import {DiCss3,DiReact,DiPhp} from 'react-icons/di'
@@ -43,14 +44,15 @@ const knowledge_arr = [
 
 function About(){
     return(
-        <section className="about_us">
-        <article className="know_container">
+        <section className="about_us" id="info__">
+        <Nav></Nav>
+        
+        <Info ></Info>
+        <article id="knowledge__"className="know_container">
        {
            knowledge_arr.map(tec => <Knowledge tec={tec.title} level ={tec.level} icon={tec.icon} />)
        }
        </article>
-       <Info></Info>
-        
         <Form></Form>
         </section>
     )
