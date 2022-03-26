@@ -48,8 +48,9 @@
   align-items: center;
   z-index: 1000;
   height: 10vh;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
 }
+
 .header ul{
   display: flex;
   justify-content: space-evenly;
@@ -61,7 +62,7 @@
 }
 .header ul li:first-child{
   text-decoration: none;
-  color: rgb(208, 71, 226);
+  color: #d047e2;
 }
 .header ul li:hover, .header ul li a:hover,.title a:hover{
   color:rgb(208, 71, 226);
